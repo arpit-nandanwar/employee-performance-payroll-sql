@@ -14,4 +14,7 @@ SQL queries to retrieve employee and payroll information and generate salary rep
 - Joining employee and department data to generate salary reports
 
 ## Repository Files
-- `01_schema_and_data.sql` – Database schema, tables, and sample data
+- `schema.sql` — Database tables and foreign key relationships (`departments`, `employees`, `payroll_records`)
+- `data.sql` — Sample records for departments, employees, and monthly payroll
+- `queries.sql` — SQL queries for filtering, sorting, joins, and payroll/performance aggregations
+
